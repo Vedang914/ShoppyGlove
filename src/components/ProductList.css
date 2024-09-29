@@ -1,0 +1,53 @@
+
+.product-list {
+    padding: 20px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    width: 450px;  /* Width for the search bar */
+    max-width: none;  /* Removed the max-width restriction */
+    padding: 20px 30px;  /* Increased padding for a larger look */
+    border: 3px solid #C0C0C0;  /* Light silver border */
+    background-color: #F8F8F8;  /* Light silver background */
+    border-radius: 30px;  /* More rounded corners */
+    font-size: 20px;  /* Larger font size */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* More pronounced shadow for depth */
+    transition: border 0.3s, box-shadow 0.3s;  /* Transition effects */
+}
+
+.search-bar:focus {
+    border: 3px solid #A0A0A0;  /* Darker silver border on focus */
+    outline: none;  /* Remove default outline */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);  /* Deeper shadow on focus */
+}
+
+.search-button {
+    background-color: #C0C0C0;  /* Silver button */
+    color: white;  /* White icon */
+    border: none;
+    border-radius: 50%;  /* Circular shape */
+    margin-left: 15px;  /* Increased space between input and button */
+    padding: 20px;  /* Increased padding for a bigger button */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;  /* Transition effects */
+    display: flex;  /* Center the icon */
+    align-items: center;  /* Center the icon vertically */
+    justify-content: center;  /* Center the icon horizontally */
+}
+
+.search-button:hover {
+    background-color: #A0A0A0;  /* Darker silver on hover */
+    transform: scale(1.1);  /* Slightly enlarge the button on hover */
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  /* Space between product items */
+}

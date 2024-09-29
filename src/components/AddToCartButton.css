@@ -1,0 +1,26 @@
+
+.add-to-cart-button {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for size */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Pointer on hover */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center icon and text vertically */
+    transition: background-color 0.3s, transform 0.3s; /* Transition for hover effects */
+}
+
+.add-to-cart-button .icon {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.add-to-cart-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.add-to-cart-button:active {
+    transform: scale(0.95); /* Slightly shrink on click */
+}
